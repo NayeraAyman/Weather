@@ -1,0 +1,246 @@
+.clear-fix {
+  clear: both;
+}
+* {
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+}
+body {
+  font-family: "Roboto", serif;
+}
+nav {
+  background-color: #1e202b;
+}
+.logo {
+  width: 64px;
+  height: 38px;
+}
+.navbar-nav {
+  width: 60%;
+}
+.navbar-nav .nav-link.active {
+  color: #009ad8;
+  font-size: 14px;
+  font-weight: 300;
+}
+.active.anch {
+  border: 2px solid #009ad8;
+  border-radius: 30px;
+}
+.nav-link.anch {
+  letter-spacing: normal;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 21px;
+  transition: all 0.1s;
+}
+.anch:hover {
+  color: #009ad8;
+  border: 2px solid #009ad8;
+  border-radius: 30px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 2px 25px;
+}
+h1 {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: start;
+  margin-bottom: 0px;
+  padding-left: 10px;
+}
+small {
+  color: #bfc1c8;
+  font-size: 10px;
+  line-height: 15px;
+  font-weight: 300;
+  text-align: start;
+  padding-left: 10px;
+}
+.up {
+  background-image: url(../images/3.png);
+  background-size: cover;
+  padding: 70px 0px;
+  min-height: 350px;
+}
+.down {
+  background-color: #1e202b;
+  padding: 70px 0px;
+  min-height: 350px;
+}
+footer {
+  background-color: #262936;
+}
+.term {
+  padding: 15px 100px 15px 20px;
+  background: #1e202b;
+  width: 100%;
+  outline: none;
+  border: none;
+  color: #fff;
+  border-radius: 30px;
+}
+.sub,
+.sub2 {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  bottom: 5px;
+  border: none;
+  background: #009ad8;
+  padding: 10px 20px;
+  border-radius: 30px;
+  color: white;
+  cursor: pointer;
+  outline: none;
+}
+.sub2 {
+  right: 20px;
+  padding: 10px 35px;
+}
+.footer-input {
+  width: 60%;
+}
+.term::placeholder {
+  color: #5a5b5e;
+}
+ul li {
+  padding: 0px 5px;
+}
+i {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #1e202b;
+  color: #009ad8;
+  text-align: center;
+  font-size: 20px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.fa-brands {
+  display: inline-flex;
+}
+
+i:hover {
+  color: #fff;
+  background-color: #009ad8;
+}
+.icons {
+  width: 40%;
+}
+footer p {
+  font-size: 14px;
+  line-height: 21px;
+  text-align: start;
+  color: #bfc1c8;
+  margin-bottom: 14px;
+  margin-top: 30px;
+}
+input:focus {
+  background-color: #1e202b;
+}
+
+.today-container {
+  background: #323544;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-top: -150px;
+  margin-bottom: 50px;
+}
+.forecast {
+  width: 33.33%;
+}
+.header {
+  background: rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  text-align: center;
+  font-weight: 400;
+}
+.day {
+  float: left;
+  color: #bfc1c8;
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.date {
+  float: right;
+  color: #bfc1c8;
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.content {
+  text-align: left;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding: 50px 20px 10px;
+}
+.location {
+  font-size: 18px;
+  font-weight: 400;
+  color: #bfc1c8;
+  line-height: 1.5;
+}
+.degree {
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.num {
+  font-size: 80px;
+  margin-right: 30px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.content-icon {
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 20px;
+  height: 50px;
+}
+.custom {
+  color: #009ad8;
+  margin: 20px 0;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+span {
+  color: #bfc1c8;
+  margin-right: 20px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+span img {
+  width: 20px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+.bg {
+  background-color: #262936;
+}
+.today-container .forecast:nth-child(even) {
+  background-color: #262936;
+}
+.content small {
+  font-size: 16px;
+  font-weight: 300;
+  padding-top: 10px;
+  color: #bfc1c8;
+}
+input[type="text"]:focus {
+  background-color: #1e202b;
+  color: #fff;
+}

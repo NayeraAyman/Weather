@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg pt-5 pb-5">
+      <div class="container">
+        <div class="d-flex justify-content-center align-content-center">
+          <a href="#"><img class="logo" src="images/7.png" alt="" /></a>
+          <div>
+            <h1>Weather</h1>
+            <small>tagline goes here</small>
+          </div>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul
+            class="navbar-nav ms-auto d-flex align-items-center justify-content-between"
+          >
+            <li class="nav-item list">
+              <a class="nav-link active anch" aria-current="page" href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link anch" href="#">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link anch" href="#">Live Cameras</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link anch" href="#">Photos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link anch" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div>
+      <div class="up">
+        <div class="container position-relative">
+          <input
+            id="search"
+            type="text"
+            class="form-control term"
+            placeholder="Find your location......"
+          />
+          <input type="button" value="Find" class="sub2" />
+        </div>
+      </div>
+      <div class="down">
+        <div class="container">
+          <div class="today-container" id="forecast"></div>
+        </div>
+      </div>
+    </div>
+    <footer class="pt-5 pb-5">
+      <div class="container d-flex m-auto p-0">
+        <div class="footer-input position-relative">
+          <input
+            type="text"
+            class="form-control term"
+            placeholder="Enter your Email to Subscribe........"
+          />
+          <input type="button" value="Subscribe" class="sub" />
+        </div>
+        <div class="icons d-flex justify-content-end align-items-center">
+          <ul class="d-flex">
+            <li>
+              <a href=""> <i class="fa-brands fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href=""> <i class="fa-brands fa-google-plus-g"></i></a>
+            </li>
+            <li>
+              <a href=""> <i class="fa-brands fa-pinterest-p"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="container p-0">
+        <p>
+          Copyright 2014 Company name. Designed by Themezy. All rights reserved
+        </p>
+      </div>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
